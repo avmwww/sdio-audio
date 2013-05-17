@@ -1,6 +1,6 @@
-// TDM back end
+// TDM serializer
 
-module tdm_be(
+module tdm_sh(
 	input  wire        iclk,
 	input  wire        irst,
 	input  wire [31:0] idin,	// Input data
