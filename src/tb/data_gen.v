@@ -1,10 +1,11 @@
 // Channel data generation module
 
 module data_gen(
-	input wire ireset,             // reset
-	output wire [31: 0] och_data,  // channel data
-	output wire [ 3: 0] och_num,   // channel number
-	output wire och_data_valid     // valid data
+	input wire ireset,              // reset
+	input wire iclk,		// clock
+	output wire [31: 0] och_data,   // channel data
+	output wire [ 3: 0] och_num,    // channel number
+	output wire och_data_valid      // valid data
 );
 
 endmodule
