@@ -11,9 +11,9 @@ module spdif_audio_tb();
 	wire  din;
 	wire  dout;
 
-	wire  ch_data;
-	wire  ch_num;
-	wire  ch_data_valid;
+	wire  [31: 0] ch_data;
+	wire  [ 3: 0] ch_num;
+	wire          ch_data_valid;
 
 
 clk_rst_gen clk_rst_gen_inst(
